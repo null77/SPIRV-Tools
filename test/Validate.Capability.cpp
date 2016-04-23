@@ -127,7 +127,9 @@ const vector<string>& AllCapabilities() {
     "StorageImageReadWithoutFormat",
     "StorageImageWriteWithoutFormat",
     "MultiViewport",
-    "SubgroupDispatch"};
+    "SubgroupDispatch",
+    "NamedBarrier",
+    "PipeStorage"};
   return *r;
 }
 
@@ -255,7 +257,9 @@ const vector<string>& KernelDependencies() {
   "DeviceEnqueue",
   "LiteralSampler",
   "Int8",
-  "SubgroupDispatch"};
+  "SubgroupDispatch",
+  "NamedBarrier",
+  "PipeStorage"};
   return *r;
 }
 
