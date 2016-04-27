@@ -24,11 +24,6 @@
 // TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
-// Assembler tests for instructions in the "Barrier Instructions" section
-// of the SPIR-V spec.
-
-#include "UnitSPIRV.h"
-
 #include "TestFixture.h"
 #include "gmock/gmock.h"
 
